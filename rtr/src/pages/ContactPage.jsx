@@ -9,7 +9,7 @@ import {
   FaLocationDot,
   FaEnvelope,
 } from "react-icons/fa6";
-import Navbar from "../components/Layout/Navbar/Navbar";
+import Navbar from "../components/layout/Navbar/Navbar";
 
 const ContactPage = () => {
   return (<> 

@@ -258,6 +258,6 @@ const ReportIssuePage = () => {
 
 const stepLabel = { display: "block", fontSize: 13, fontWeight: 700, color: "#555", marginBottom: 8, textTransform: "uppercase", letterSpacing: 0.5 };
 const inputStyle = { width: "100%", padding: "12px", borderRadius: 10, border: "1.5px solid #ddd", fontSize: 14, outline: "none", boxSizing: "border-box", fontFamily: "inherit" };
-const uploadBox = { display: "flex", borderRadius: 12, height: 180, cursor: "pointer", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" };
+const uploadBox = { display: "flex", borderRadius: 12, height: 180, cursor: "pointer", overflow: "hidden", alignItems: "center", justifyContent: "center" };
 
 export default ReportIssuePage;

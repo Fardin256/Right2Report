@@ -192,7 +192,7 @@ const AdminDashboard = () => {
                             <motion.button key={status} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
                               onClick={() => handleStatusChange(c._id, status)}
                               style={{
-                                padding: "7px 16px", borderRadius: 8, border: "none", cursor: "pointer", fontSize: 12, fontWeight: 600,
+                                padding: "7px 16px", borderRadius: 8, cursor: "pointer", fontSize: 12, fontWeight: 600,
                                 background: c.status === status ? statusColors[status].bg : "#f5f5f5",
                                 color: c.status === status ? statusColors[status].color : "#888",
                                 border: c.status === status ? `1px solid ${statusColors[status].border}` : "1px solid #eee"

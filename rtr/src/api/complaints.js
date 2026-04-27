@@ -1,4 +1,4 @@
-const BASE = "http://localhost:5000/api/complaint";
+const BASE = "https://right2report.onrender.com/api/complaint";
 const getToken = () => localStorage.getItem("token");
 
 export const submitComplaint = async (formData) => {

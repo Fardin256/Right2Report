@@ -1,5 +1,5 @@
 export const registerUser = async (userData) => {
-  const res = await fetch("https://your-app-name.onrender.com/api/auth/register", {
+  const res = await fetch("https://right2report.onrender.com/api/auth/register", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(userData)
@@ -8,7 +8,7 @@ export const registerUser = async (userData) => {
 };
 
 export const loginUser = async (userData) => {
-  const res = await fetch("https://your-app-name.onrender.com/api/auth/login", {
+  const res = await fetch("https://right2report.onrender.com/api/auth/login", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(userData)

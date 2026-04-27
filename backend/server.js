@@ -13,7 +13,10 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: true,
+  origin:[
+    "http://localhost:5173",
+    "https://right2-report.vercel.app/"
+  ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true

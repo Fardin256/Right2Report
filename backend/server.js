@@ -27,7 +27,6 @@ app.use((req, res, next) => {
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/complaint", complaintRoutes);
-
 app.get("/", (req, res) => res.send("RTR Backend is running ✅"));
 
 const PORT = process.env.PORT || 5000;

@@ -15,7 +15,7 @@ connectDB();
 app.use(cors({
   origin:[
     "http://localhost:5173",
-    "https://right2-report.vercel.app/"
+    "https://right2-report.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],

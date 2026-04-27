@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
-import Navbar from "./components/Layout/Navbar/Navbar";
+import Navbar from "./components/layout/Navbar/Navbar";
 import Footer from "./components/layout/Footer/Footer";
 import ParticlesBackground from "./common/ParticlesBackground";
 import ProtectedRoute from "./components/ProtectedRoute";

@@ -1,0 +1,31 @@
+.flow-container {
+  padding: 80px 10%;
+  background: #f5f5f5;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  gap: 40px;
+}
+
+.left-text {
+  width: 50%;
+}
+
+.right-text {
+  width: 40%;
+}
+
+.flow-image {
+  display: flex;
+  justify-content: center;
+}
+
+.flow-image img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+}
